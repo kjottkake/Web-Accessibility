@@ -35,8 +35,39 @@ margin: 0;
 padding: 0.5em 0;
 }
 
+/* container for body text*/
+.container {
+    padding: 5% 2% 5% 2%;
+    width: 80%;
+    border: 1px solid red;
+    margin: auto;
+    
+}
+
+/* panel for body text */
+.panel {
+    border: 1px solid blue;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+#image1 {
+    width: 500px;
+}
+
 
 /* navbar */
+nav {
+    background-color: #3c40c6;
+    margin: auto;
+    width: 80%;
+}
+
+nav a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
 @media (max-width: 600px) {
     nav ul {
       flex-direction: column;
@@ -69,3 +100,4 @@ padding: 0.5em 0;
       list-style-type: none;
     }
   }
+
