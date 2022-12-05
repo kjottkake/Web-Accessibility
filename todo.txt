@@ -1,0 +1,18 @@
+[]Landing Page
+    [x]Create Boilerplate
+[]About
+    [x]Create Boilerplate
+[]Resources
+    [x]Create Boilerplate
+[]News
+    [x]Create Boilerplate
+[]Contact
+    [x]Create Boilerplate
+[]Events
+[]Blog
+    [x]Create Boilerplate
+[]Testimonials
+    [x]Create Boilerplate
+[]FAQ
+    [x]Create Boilerplate
+[]Support
