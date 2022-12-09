@@ -20,7 +20,59 @@
   <p>We are dedicated to promoting and advancing web accessibility, and we offer a range of resources on our website to help you learn more about this important topic. Whether you are a web developer, designer, or just someone who wants to learn more about how to make the web more accessible, we have something for you.</p>
 
   <p>Thank you for visiting our website on web accessibility. We hope you find the information and resources here helpful and informative.</p>
-    </div>
+  
+  <video src="./media/intro.mp4" id="my-video">
+    <label for="play-pause-button" id="play-pause-label">Play/Pause</label>
+    <button id="play-pause-button" aria-labelledby="play-pause-label" tabindex="1" onclick="togglePlayPause()">
+      <img src="play-icon.png" alt="Play" id="play-icon">
+      <img src="pause-icon.png" alt="Pause" id="pause-icon" style="display: none">
+    </button>
+    <label for="volume-control" id="volume-label">Volume</label>
+    <input type="range" id="volume-control" aria-labelledby="volume-label" tabindex="2" min="0" max="1" step="0.1" value="0.5" oninput="setVolume()">
+  </video>
+  
+  <script>
+    var video = document.getElementById('my-video');
+    var playPauseButton = document.getElementById('play-pause-button');
+    var playIcon = document.getElementById('play-icon');
+    var pauseIcon = document.getElementById('pause-icon');
+    var volumeControl = document.getElementById('volume-control');
+  
+    function togglePlayPause() {
+      if (video.paused) {
+        video.play();
+        playIcon.style.display = 'none';
+        pauseIcon.style.display = 'inline';
+      } else {
+        video.pause();
+        playIcon.style.display = 'inline';
+        pauseIcon.style.display = 'none';
+      }
+    }
+  
+    function setVolume() {
+      video.volume = volumeControl.value;
+    }
+  
+    playPauseButton.addEventListener('keydown', function(event) {
+      if (event.keyCode == 32 || event.keyCode == 13) {
+        event.preventDefault();
+        togglePlayPause();
+      }
+    });
+  
+    volumeControl.addEventListener('keydown', function(event) {
+      if (event.keyCode == 38) {
+        event.preventDefault();
+        volumeControl.value = Math.min(parseFloat(volumeControl.value) + 0.1, 1);
+        setVolume();
+      } else if (event.keyCode == 40) {
+        event.preventDefault();
+        volumeControl.value = Math.max(parseFloat(volumeControl.value) - 0.1, 0);
+        setVolume();
+      }
+      </script>
+</div>
     <footer></footer>
     <script src="./app.js"></script>
 </body>

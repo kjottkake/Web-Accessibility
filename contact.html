@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Accessibility - Contact Us!</title>
-    <link rel="stylesheet" href="./style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Accessibility - Contact Us!</title>
+  <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-    <nav></nav>
-    <div class="container"><h1>Contact Us</h1>
+  <nav></nav>
+  <div class="container">
+    <h1>Contact Us</h1>
     <p>We would love to hear from you!</p>
     <form>
       <label for="name">Your Name:</label><br>
@@ -17,8 +20,29 @@
       <label for="message">Message:</label><br>
       <textarea id="message" name="message"></textarea><br><br>
       <input type="submit" value="Submit">
-    </form></div>
-    <footer></footer>
-    <script src="./app.js"></script>
+    </form>
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Phone</th>
+      </tr>
+      <tr>
+        <td>Jane Doe</td>
+        <td>jane.doe@example.com</td>
+        <td>123-456-7890</td>
+      </tr>
+      <tr>
+        <td>John Smith</td>
+        <td>john.smith@example.com</td>
+        <td>098-765-4321</td>
+      </tr>
+    </table>
+    
+  </div>
+  <footer></footer>
+  <script src="./app.js"></script>
+  <script src="./formValidation.js"></script>
 </body>
+
 </html>

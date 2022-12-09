@@ -147,3 +147,19 @@ footer {
     }
   }
 
+
+  /* styles for high contrast mode for users who use a night mode reader*/
+/* @media (prefers-color-scheme: dark) {
+  body {
+    color: #fff;
+    background-color: #121212;
+  }
+
+  h1, h2 {
+    color: #fff;
+  }
+
+  nav a{
+    color: #fff;
+  }
+} */
