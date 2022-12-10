@@ -22,14 +22,14 @@ footerTemplate.innerHTML=`
 <div class="footer-container">
     <div class="footer-col">
       <h3>About Us</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in pharetra nisi. Praesent pretium arcu eget scelerisque tincidunt.</p>
+      <p> Our goal is to make the internet a more inclusive and accessible place for everyone, regardless of ability or disability.</p>
     </div>
     <div class="footer-col">
       <h3>Contact Us</h3>
       <ul>
-        <li>Email: info@example.com</li>
-        <li>Phone: 555-555-5555</li>
-        <li>Address: 123 Main Street, Anytown USA</li>
+        <li>info@stud.ntnu.no</li>
+        <li>+47 981 969 101</li>
+        <li>Teknologivegen 22, 2815 Gjøvik</li>
       </ul>
     </div>
     <div class="footer-col">

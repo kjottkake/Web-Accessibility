@@ -147,6 +147,45 @@ footer {
     }
   }
 
+  .thumbnail {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; /* this will make the thumbnail round */
+    object-fit: cover;
+  }
+
+
+  @media screen and (max-width: 600px) {
+    .panel {
+      /* make panels stack vertically on small screens */
+      display: flex;
+      flex-direction: column;
+    }
+  
+    img {
+      /* scale down images on small screens */
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  
+  @media screen and (min-width: 601px) and (max-width: 1200px) {
+    .panel {
+      /* make panels float side by side on medium-sized screens */
+      float: left;
+      width: 50%;
+    }
+  }
+  
+  @media screen and (min-width: 1201px) {
+    .panel {
+      /* make panels float side by side on large screens */
+      float: left;
+      width: 33.33%;
+    }
+  }
+
+
 
   /* styles for high contrast mode for users who use a night mode reader*/
 /* @media (prefers-color-scheme: dark) {
