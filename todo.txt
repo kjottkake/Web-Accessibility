@@ -1,18 +1,33 @@
 []Landing Page
     [x]Create Boilerplate
+    []Format images
+    []Create Visual Hierarchy
 []About
     [x]Create Boilerplate
+    [x]Fix Video Position
+    []Include Video Controls
 []Resources
     [x]Create Boilerplate
+    []Add more images
 []News
     [x]Create Boilerplate
+    []Add image for last article 
 []Contact
     [x]Create Boilerplate
+    []Add more contacts and an additional column
 []Events
 []Blog
     [x]Create Boilerplate
+    []Format into different cards/ sections
 []Testimonials
     [x]Create Boilerplate
+    []Format Images
 []FAQ
     [x]Create Boilerplate
+[]Generate Styling
+    []Format Footer to look better 
+    []Change footer elements
+        []email
+        []phone
+        []address
 []Support

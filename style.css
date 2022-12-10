@@ -155,11 +155,20 @@ footer {
   }
 
 
+  video {
+    width: 100%;
+  }
+
   @media screen and (max-width: 600px) {
     .panel {
       /* make panels stack vertically on small screens */
       display: flex;
       flex-direction: column;
+    }
+
+    video {
+      max-width: 100%;
+      height: auto;
     }
   
     img {
