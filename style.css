@@ -59,7 +59,6 @@ article h1, h2, p{
 }
 
 article ul, li {
-  padding-left: 8%;
   padding-right: 4%;
   /* list-style-type: none; */
   line-height: 200%;
@@ -79,14 +78,12 @@ nav {
   width: 80%;
   margin: auto;
   border: 1px solid salmon;
-  /* font-size: 2rem; */
 }
 
 nav a {
   text-decoration: none;
   color: #121212;
   border: 1px solid pink;
-  /* font-size: 2rem; */
 }
 
 nav a:hover {
@@ -154,7 +151,7 @@ footer {
 }
 
 @media (min-width: 601px) and (max-width: 900px) {
-  nav ul {
+  /* nav ul {
     flex-direction: row;
     justify-content: space-between;
   }
@@ -162,18 +159,17 @@ footer {
   nav li {
     margin-right: 1em;
     list-style-type: none;
-  }
+  } */
 }
 
 @media (min-width: 901px) {
   nav ul {
     display: flex;
     flex-direction: row;
-    /* justify-content: space-around; */
   }
 
   nav li {
-    margin-right: 2em;
+    /* margin-right: 2em; */
     list-style-type: none;
   }
 }
