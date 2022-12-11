@@ -30,4 +30,5 @@
         []email
         []phone
         []address
+    []Download images and store them locally
 []Support

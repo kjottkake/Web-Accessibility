@@ -189,8 +189,8 @@ footer {
   @media screen and (min-width: 1201px) {
     .panel {
       /* make panels float side by side on large screens */
-      float: left;
-      width: 33.33%;
+      /* float: left; */
+      /* width: 33.33%; */
     }
   }
 
