@@ -26,6 +26,8 @@
     [x]Create Boilerplate
 []Generate Styling
     []Format Footer to look better 
+    []Format footer to stretch to full 
+    []Footer mobile view
     []Change footer elements
         []email
         []phone
