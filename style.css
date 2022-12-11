@@ -3,24 +3,24 @@
 body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
-  /* padding: 1em; */
   font-size: large;
 }
 
 h1, h2 {
   color: #444;
   font-weight: normal;
+  margin: 0;
 }
 
 h1 {
   font-size: 1.5em;
-  margin-bottom: 0.5em;
+  /* margin-bottom: 0.5em; */
 }
 
 h2 {
   font-size: 1.2em;
-  margin-top: 1em;
-  margin-bottom: 0.5em;
+  /* margin-top: 1em;
+  margin-bottom: 0.5em; */
 }
 
 p {
@@ -41,27 +41,63 @@ li {
 
 /* container for body text*/
 .container {
-  padding: 5% 2% 5% 2%;
+  padding-top: 2%;
+  padding-bottom: 2%;
   width: 80%;
   border: 1px solid red;
   margin: auto;
 
+  /* trying out index page */
+  /* display: flex; */
 }
+
+
 
 /* panel for body text */
 .panel {
   border: 1px solid blue;
   border-radius: 5px;
   margin: 10px;
+  
+  /* display: flex; */
 }
 
 #image1 {
+  /* flex: 1; */
   width: 500px;
 }
+
 
 img {
   max-width: 50%;
   max-height: 50%;
+}
+
+header {
+  background-color: #4bcffa;
+  padding-bottom: 2%;
+  width: 80%;
+  margin: auto;
+}
+
+section {
+  background-color: #d2dae2;
+  /* width: 80%; */
+  margin: auto;
+  /* margin-top: 12px; */
+  margin-bottom: 12px;
+}
+
+article {
+  background-color: antiquewhite;
+  width: 80%;
+  margin: auto;
+}
+
+
+figure {
+  /* border-radius: 50%; */
+  border: 1px solid red;
 }
 
 

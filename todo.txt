@@ -1,39 +1,34 @@
 []Landing Page
-    [x]Create Boilerplate
     []Format images
     []Create Visual Hierarchy
+        []Change to semantic html 
+        
 []About
-    [x]Create Boilerplate
     [x]Fix Video Position
     []Include Video Controls
 []Resources
-    [x]Create Boilerplate
     []Add more images
 []News
-    [x]Create Boilerplate
     []Add image for last article 
 []Contact
-    [x]Create Boilerplate
     []Add more contacts and an additional column
 []Events
 []Blog
-    [x]Create Boilerplate
     []Format into different cards/ sections
 []Testimonials
-    [x]Create Boilerplate
     []Format Images
 []FAQ
-    [x]Create Boilerplate
 []Generate Styling
-    [x]Format Footer to look better 
-    [x]Format footer to stretch to full 
-    []Footer mobile view
-    []Change footer elements
-        []email
-        []phone
-        []address
+    []Footer
+        [x]Format Footer to look better 
+        [x]Format footer to stretch to full 
+        [x]Footer mobile view
+        []Change footer elements
+            []email
+            []phone
+            []address
     []Download images and store them locally
         []Download images
         []Link images
-    []Create back to top
+    []Create button for back to top
 []Support
