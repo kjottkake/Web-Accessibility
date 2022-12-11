@@ -1,24 +1,35 @@
+[]Navbar
+    []Adjust size of navbar
+    []Create mobile navbar view
+
 []Landing Page
     []Format images
-    []Create Visual Hierarchy
+    [x]Create Visual Hierarchy
         [x]Change to semantic html 
-        []Refactor all elements to semantic html
+        [x]Refactor all elements to semantic html
 
 []About
+    []Refactor to semantic html
     [x]Fix Video Position
     []Include Video Controls
 []Resources
+    []Refactor to semantic html
     []Add more images
 []News
+    []Refactor to semantic html
     []Add image for last article 
 []Contact
+    []Refactor to semantic html
     []Add more contacts and an additional column
 []Events
 []Blog
+    []Refactor to semantic html
     []Format into different cards/ sections
 []Testimonials
+    []Refactor to semantic html
     []Format Images
 []FAQ
+    []Refactor to semantic html
 []Generate Styling
     []Footer
         [x]Format Footer to look better 
