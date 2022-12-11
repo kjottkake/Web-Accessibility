@@ -1,12 +1,15 @@
 Features:
 
 []Navbar
-    []Adjust size of navbar
+    [x]Adjust size of navbar
     []Create mobile navbar view
 
 []Audio file
 
 []Pop up Window 
+    [x]created popup
+    []fix close issues
+    []format styling
 
 Pages:
 

@@ -59,8 +59,11 @@ article h1, h2, p{
 }
 
 article ul, li {
-  padding-left: 2%;
-  list-style-type: none;
+  padding-left: 8%;
+  padding-right: 4%;
+  /* list-style-type: none; */
+  line-height: 200%;
+
 }
 
 
@@ -73,17 +76,23 @@ figure {
 /* navbar */
 nav {
   /* background-color: #3c40c6; */
-  margin: auto;
   width: 80%;
+  margin: auto;
   border: 1px solid salmon;
-  font-size: 2rem;
+  /* font-size: 2rem; */
 }
 
 nav a {
   text-decoration: none;
   color: #121212;
-  font-size: 2rem;
+  border: 1px solid pink;
+  /* font-size: 2rem; */
 }
+
+nav a:hover {
+  background-color: #d2dae2;
+}
+
 
 /* footer */
 footer {
