@@ -1,6 +1,14 @@
+Features:
+
 []Navbar
     []Adjust size of navbar
     []Create mobile navbar view
+
+[]Audio file
+
+[]Pop up Window 
+
+Pages:
 
 []Landing Page
     []Format images
@@ -30,6 +38,8 @@
 []FAQ
     [x]Refactor to semantic html
 
+
+Styling: 
 
 []Generate Styling and CSS
     []Footer
