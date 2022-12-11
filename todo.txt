@@ -9,7 +9,7 @@
         [x]Refactor all elements to semantic html
 
 []About
-    []Refactor to semantic html
+    [x]Refactor to semantic html
     [x]Fix Video Position
     []Include Video Controls
 []Resources
