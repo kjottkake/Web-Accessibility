@@ -19,10 +19,11 @@ Pages:
         [x]Change to semantic html 
         [x]Refactor all elements to semantic html
 
-[]About
+[x]About
     [x]Refactor to semantic html
     [x]Fix Video Position
-    []Include Video Controls
+    [x]Include Video Controls
+    [x]Included subtitles download 
 []Resources
     [x]Refactor to semantic html
     []Add more images
