@@ -1,8 +1,9 @@
 []Landing Page
     []Format images
     []Create Visual Hierarchy
-        []Change to semantic html 
-        
+        [x]Change to semantic html 
+        []Refactor all elements to semantic html
+
 []About
     [x]Fix Video Position
     []Include Video Controls
