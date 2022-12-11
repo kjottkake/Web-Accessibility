@@ -27,9 +27,9 @@ footerTemplate.innerHTML=`
     <div class="footer-col">
       <h3>Contact Us</h3>
       <ul>
-        <li>info@stud.ntnu.no</li>
-        <li>+47 981 969 101</li>
-        <li>Teknologivegen 22, 2815 Gjøvik</li>
+        <li><a href="mailto:info@stud.ntnu.no">info@stud.ntnu.no</a></li>
+        <li><a href="tel:+47 981 969 101">+47 981 969 101</a></li>
+        <li><a href="https://goo.gl/maps/9QrwbsZdQX2E9kn17">Teknologivegen 22, 2815 Gjøvik</a></li>
       </ul>
     </div>
     <div class="footer-col">

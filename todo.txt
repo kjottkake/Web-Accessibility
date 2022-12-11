@@ -1,6 +1,6 @@
 Features:
 
-[]Navbar
+[X]Navbar
     [x]Adjust size of navbar
     []Create mobile navbar view
 
@@ -29,16 +29,18 @@ Pages:
     []Add more images
 []News
     [x]Refactor to semantic html
-    []Add image for last article 
+    [x]Add image for last article 
 []Contact
     [x]Refactor to semantic html
+    [x]fix styling
+    []form validation 
     []Add more contacts and an additional column
 []Blog
     [x]Refactor to semantic html
     []Format into different cards/ sections
-[]Testimonials
+[x]Testimonials
     [x]Refactor to semantic html
-    []Format Images
+    [x]Format Images
 []FAQ
     [x]Refactor to semantic html
 
