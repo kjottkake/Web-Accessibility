@@ -3,7 +3,7 @@
 body {
   font-family: 'Roboto', sans-serif;
     margin: 0;
-    padding: 1em;
+    /* padding: 1em; */
     font-size: large;
 }
   
@@ -82,9 +82,10 @@ nav a{
 
 /* footer */
 footer {
-  background-color: #333;
+  background-color: #1e272e;
   color: #fff;
   padding: 2em 0;
+  margin: 0;
 }
 
 .footer-container {
@@ -97,6 +98,10 @@ footer {
 .footer-col {
   flex: 1;
   text-align: center;
+}
+
+.footer-col li {
+  list-style-type: none;
 }
 
 .footer-col h3 {
@@ -112,6 +117,10 @@ footer {
 
 .social-media-list li {
   margin-right: 0.5em;
+}
+
+.social-media-list li a {
+  color: #fff;
 }
 
 @media (max-width: 600px) {
