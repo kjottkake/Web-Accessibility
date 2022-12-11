@@ -25,12 +25,15 @@
 []FAQ
     [x]Create Boilerplate
 []Generate Styling
-    []Format Footer to look better 
-    []Format footer to stretch to full 
+    [x]Format Footer to look better 
+    [x]Format footer to stretch to full 
     []Footer mobile view
     []Change footer elements
         []email
         []phone
         []address
     []Download images and store them locally
+        []Download images
+        []Link images
+    []Create back to top
 []Support
