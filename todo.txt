@@ -26,40 +26,36 @@ Pages:
     [x]Fix Video Position
     [x]Include Video Controls
     [x]Included subtitles download 
-[]Resources
+[x]Resources
     [x]Refactor to semantic html
-    []Add more images
-[]News
+[x]News
     [x]Refactor to semantic html
     [x]Add image for last article 
-[]Contact
+[x]Contact
     [x]Refactor to semantic html
     [x]fix styling
-    []form validation 
-    []Add more contacts and an additional column
-[]Blog
+    [x]form validation 
+[x]Blog
     [x]Refactor to semantic html
-    []Format into different cards/ sections
+    [x]Format into different cards/ sections
 [x]Testimonials
     [x]Refactor to semantic html
     [x]Format Images
-[]FAQ
+[x]FAQ
     [x]Refactor to semantic html
 
 
 Styling: 
 
 []Generate Styling and CSS
-    []Footer
+    [x]Footer
         [x]Format Footer to look better 
         [x]Format footer to stretch to full 
         [x]Footer mobile view
-        []Change footer elements
-            []email
-            []phone
-            []address
-    []Download images and store them locally
+        [x]Change footer elements
+            [x]email
+            [x]phone
+            [x]address
+    [x]Download images and store them locally
         [x]Download images
-        []Link images
-    []Create button for back to top
-[]Support
+        [x]Link images
