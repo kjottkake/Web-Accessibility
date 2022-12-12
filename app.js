@@ -21,11 +21,11 @@ template.innerHTML=`
 footerTemplate.innerHTML=`
 <div class="footer-container">
     <div class="footer-col">
-      <h3>About Us</h3>
+      <h3><a href="./about.html">About Us</a></h3>
       <p> Our goal is to make the internet a more inclusive and accessible place for everyone, regardless of ability or disability.</p>
     </div>
     <div class="footer-col">
-      <h3>Contact Us</h3>
+      <h3><a href="./contact.html">Contact Us</a></h3>
       <ul>
         <li><a href="mailto:info@stud.ntnu.no">info@stud.ntnu.no</a></li>
         <li><a href="tel:+47 981 969 101">+47 981 969 101</a></li>
@@ -33,11 +33,11 @@ footerTemplate.innerHTML=`
       </ul>
     </div>
     <div class="footer-col">
-      <h3>Follow Us</h3>
+      <h3>Follow Us On Social Media</h3>
       <ul class="social-media-list">
-        <li><a href="#"><i class="fa fa-facebook-square"></i> Facebook</a></li>
-        <li><a href="#"><i class="fa fa-twitter-square"></i> Twitter</a></li>
-        <li><a href="#"><i class="fa fa-instagram"></i> Instagram</a></li>
+        <li><a href="https://www.facebook.com/"><i class="fa fa-facebook-square"></i> Facebook</a></li>
+        <li><a href="https://twitter.com/"><i class="fa fa-twitter-square"></i> Twitter</a></li>
+        <li><a href="https://www.instagram.com/"><i class="fa fa-instagram"></i> Instagram</a></li>
       </ul>
     </div>
   </div>

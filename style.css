@@ -151,6 +151,11 @@ footer {
   list-style-type: none;
 }
 
+.footer-col a {
+  text-decoration: none;
+  color: white;
+}
+
 .footer-col h3 {
   margin-bottom: 0.5em;
 }

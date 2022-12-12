@@ -4,7 +4,9 @@ Features:
     [x]Adjust size of navbar
     []Create mobile navbar view
 
-[]Audio file
+[x]Audio file
+    [x]included audio file
+    [x]included transcript of audio
 
 []Pop up Window 
     [x]created popup
@@ -57,7 +59,7 @@ Styling:
             []phone
             []address
     []Download images and store them locally
-        []Download images
+        [x]Download images
         []Link images
     []Create button for back to top
 []Support
